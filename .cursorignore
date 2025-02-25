@@ -1,0 +1,78 @@
+# System/tool-specific ignores
+# git
+.git
+
+# cursor
+.cursor/
+
+# vscode
+.vscode/
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# IDE specific
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+
+# vscodecounter
+
+# arena
+.arena_temp/
+
+# Lizard
+.venv/
+# venv setting(check snipet.txt)
+
+# System/tool-specific ignores
+/.editor_settings
+/.internal
+/build
+.externalToolBuilders
+.DS_Store
+.DS_Store?
+.Trashes
+Thumbs.db
+.Spotlight-V100
+.directory
+.lock-wscript
+*.pyc
+.project
+.cproject
+builtins
+*~
+*.blend1
+*.bak
+._*
+ehthumbs.db
+
+# Build and export directories
+build/
+export/
+releases/
+bundle/
+
+# docs
+
+# test
+
+# logs
+
+# old
+old/
+
+# temp
+temp/
+tmp/
+
+# memo
+snipet.txt
+Rules_for_AI.txt
+dev_memo.txt
+ai-memo.txt

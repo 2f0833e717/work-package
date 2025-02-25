@@ -1,0 +1,27 @@
+{
+  "name": "repositories-summary",
+  "version": "1.0.0",
+  "description": "Githubリポジトリまとめ",
+  "main": "index.js",
+  "scripts": {
+    "update-toc": "bash ./scripts/update_toc.sh",
+    "lint": "node ./scripts/lint_readme.js",
+    "check-icons": "node ./scripts/check_icons.js",
+    "add-repo": "node ./scripts/add_repository.js",
+    "add-screenshot": "node ./scripts/add_screenshot.js",
+    "update-badges": "node ./scripts/update_badges.js",
+    "sync-repos": "node ./scripts/sync_github_repos.js",
+    "validate": "npm run lint && npm run check-icons && npm run update-toc"
+  },
+  "keywords": [
+    "repositories",
+    "summary",
+    "github"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "doctoc": "^2.2.1",
+    "node-fetch": "^2.7.0"
+  }
+}

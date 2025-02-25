@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: リポジトリガイドライン
+    url: docs/category_guideline.md
+    about: リポジトリのカテゴリ分類に関するガイドラインを確認してください
+  - name: アイコンガイドライン
+    url: docs/emoji_guideline.md
+    about: リポジトリアイコンの選定に関するガイドラインを確認してください 

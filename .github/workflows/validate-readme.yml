@@ -1,0 +1,63 @@
+name: Validate README
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'README.md'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'README.md'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Lint README
+        run: npm run lint
+        
+      - name: Check TOC structure
+        run: |
+          # TOCが正しく構成されているか確認
+          if ! grep -q "<!-- START doctoc generated TOC please keep comment here to allow auto update -->" README.md; then
+            echo "ERROR: README.mdにdoctocのTOCマーカーが見つかりません"
+            exit 1
+          fi
+          if ! grep -q "<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->" README.md; then
+            echo "ERROR: README.mdにdoctocの編集禁止マーカーが見つかりません"
+            exit 1
+          fi
+          if ! grep -q "<!-- END doctoc generated TOC please keep comment here to allow auto update -->" README.md; then
+            echo "ERROR: README.mdにdoctocのTOC終了マーカーが見つかりません"
+            exit 1
+          fi
+          echo "TOC構造の検証に成功しました"
+      
+      - name: Update TOC
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+        run: |
+          npm run update-toc
+          
+          # 変更があれば自動コミット
+          if git diff --quiet README.md; then
+            echo "TOCに変更はありません"
+          else
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add README.md
+            git commit -m "docs: READMEの目次を自動更新"
+            git push
+          fi 
