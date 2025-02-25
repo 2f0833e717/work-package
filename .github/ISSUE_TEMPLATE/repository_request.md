@@ -11,6 +11,10 @@ assignees: ''
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [リポジトリ情報](#%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E6%83%85%E5%A0%B1)
+- [追加理由](#%E8%BF%BD%E5%8A%A0%E7%90%86%E7%94%B1)
+- [チェックリスト](#%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## リポジトリ情報

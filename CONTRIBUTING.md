@@ -8,8 +8,6 @@
   - [リポジトリ情報の追加・更新](#%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E6%83%85%E5%A0%B1%E3%81%AE%E8%BF%BD%E5%8A%A0%E3%83%BB%E6%9B%B4%E6%96%B0)
   - [カテゴリの分類](#%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA%E3%81%AE%E5%88%86%E9%A1%9E)
   - [アイコンの使用](#%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E3%81%AE%E4%BD%BF%E7%94%A8)
-  - [目次の更新](#%E7%9B%AE%E6%AC%A1%E3%81%AE%E6%9B%B4%E6%96%B0)
-  - [質問がある場合](#%E8%B3%AA%E5%95%8F%E3%81%8C%E3%81%82%E3%82%8B%E5%A0%B4%E5%90%88)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
