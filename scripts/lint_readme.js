@@ -117,7 +117,7 @@ lines.forEach((line, index) => {
     // 説明の内容行数チェック
     let descLines = 0;
     for (let i = descLine + 1; i < lines.length; i++) {
-      if (lines[i].startsWith('#')) break;
+      if (lines[i].startsWith('#') || lines[i] === '---') break;
       if (lines[i].trim() !== '') descLines++;
     }
     

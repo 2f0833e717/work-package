@@ -29,6 +29,10 @@
     - [概要(2f0833e717.github.io) 📜](#%E6%A6%82%E8%A6%812f0833e717githubio-)
     - [アクセス先(2f0833e717.github.io)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%882f0833e717githubio)
     - [説明(2f0833e717.github.io)](#%E8%AA%AC%E6%98%8E2f0833e717githubio)
+  - [work-package](#work-package)
+    - [概要(work-package) 📜](#%E6%A6%82%E8%A6%81work-package-)
+    - [アクセス先(work-package)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88work-package)
+    - [説明(work-package)](#%E8%AA%AC%E6%98%8Ework-package)
 - [業務用ツール 🛠️](#%E6%A5%AD%E5%8B%99%E7%94%A8%E3%83%84%E3%83%BC%E3%83%AB-)
   - [dotfile](#dotfile)
     - [概要(dotfile) ⚙️](#%E6%A6%82%E8%A6%81dotfile-)
@@ -82,6 +86,10 @@
     - [概要(mail-template-word) 📝](#%E6%A6%82%E8%A6%81mail-template-word-)
     - [アクセス先(mail-template-word)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88mail-template-word)
     - [説明(mail-template-word)](#%E8%AA%AC%E6%98%8Email-template-word)
+  - [powerpoint-vba-toolkit](#powerpoint-vba-toolkit)
+    - [概要(powerpoint-vba-toolkit) 🛠️](#%E6%A6%82%E8%A6%81powerpoint-vba-toolkit-)
+    - [アクセス先(powerpoint-vba-toolkit)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88powerpoint-vba-toolkit)
+    - [説明(powerpoint-vba-toolkit)](#%E8%AA%AC%E6%98%8Epowerpoint-vba-toolkit)
 - [学習用リポジトリ 📚](#%E5%AD%A6%E7%BF%92%E7%94%A8%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA-)
   - [qd](#qd)
     - [概要(qd) 🔷](#%E6%A6%82%E8%A6%81qd-)
@@ -203,15 +211,32 @@ Google AndroidのWeb Speech APIを活用した高精度な音声認識機能を�
 ## 2f0833e717.github.io
 
 ### 概要(2f0833e717.github.io) 📜
-2f0833e717.github.ioリポジトリ
+GitHub Pagesを活用した個人のウェブサイトプロジェクト。
+フロントエンド技術の実践的な学習と成果公開のためのリポジトリ。
+ウェブコンテンツの公開と管理を効率化するプラットフォーム。
 
 ### アクセス先(2f0833e717.github.io)
 https://github.com/2f0833e717/2f0833e717.github.io
 
 ### 説明(2f0833e717.github.io)
-2f0833e717.github.ioリポジトリの詳細情報
-2f0833e717.github.ioは最新のWeb技術を活用した実装例として参照できるプロジェクトです。
-// AI拡充指示: GitHub「2f0833e717/2f0833e717.github.io」リポジトリについて、Web検索をして内容を分析し、このプロジェクトの目的や特徴について、概要と説明のセクションを編集し3行以内で簡潔に説明してください。
+GitHub Pagesを使用して構築された個人のウェブプレゼンス環境。
+HTML/CSS/JavaScriptを活用したウェブサイト構築の実践的なプロジェクト。
+ポートフォリオ作品や技術的な情報共有を目的としたパブリックリポジトリ。
+
+## work-package
+
+### 概要(work-package) 📜
+GitHubリポジトリ管理と情報整理のための統合ツールセット。
+Node.jsベースの自動同期と文書化機能を備えたワークフロー効率化プロジェクト。
+複数リポジトリの概要情報を一元管理するためのマスターリポジトリ。
+
+### アクセス先(work-package)
+https://github.com/2f0833e717/work-package
+
+### 説明(work-package)
+GitHub APIを活用した複数リポジトリの情報自動収集と文書化システム。
+リポジトリ情報のカテゴリ分け、アイコン付与、目次生成などを自動化するスクリプト群を実装。
+プロジェクト管理の効率化と情報の一元化を実現する実用的なツールリポジトリ。
 
 ---
 
@@ -411,6 +436,21 @@ https://github.com/2f0833e717/mail-template-word/tree/main
 メールの署名の下に付与するセキュリティ事項のめも。
 メールのビジネスシーンに対応したテンプレート文書作成をサポートする実用資源。
 
+## powerpoint-vba-toolkit
+
+### 概要(powerpoint-vba-toolkit) 🛠️
+PowerPoint業務効率化のためのVBAマクロコレクション。
+プレゼンテーション作成・編集を自動化する実用的なツールキット。
+企業ユーザー向けの時間節約とクオリティ向上を支援するVBA集。
+
+### アクセス先(powerpoint-vba-toolkit)
+https://github.com/2f0833e717/powerpoint-vba-toolkit
+
+### 説明(powerpoint-vba-toolkit)
+PowerPointのスライド作成・編集作業を効率化するVBAマクロ集。
+書式の一括適用、図形の整列、テンプレート管理など実務に役立つ機能を収録。
+繰り返し作業を自動化し、一貫性のあるプレゼンテーション資料作成を支援する業務用ツール。
+
 ---
 
 # 学習用リポジトリ 📚
@@ -508,15 +548,17 @@ https://github.com/2f0833e717/vagrantfiles
 ## manual
 
 ### 概要(manual) 📚
-manualリポジトリ
+開発環境セットアップと技術スタック管理のための包括的マニュアル集。
+WSL、GitHub、Docker、各種プログラミング言語のセットアップ手順を網羅。
+実務で頻繁に使用する開発環境構築の効率化と標準化を目指したドキュメント。
 
 ### アクセス先(manual)
 https://github.com/2f0833e717/manual
 
 ### 説明(manual)
-manualリポジトリの詳細情報
-このリポジトリは技術学習と知識共有を目的としています。
-// AI拡充指示: GitHub「2f0833e717/manual」リポジトリについて、Web検索をして内容を分析し、このリポジトリで扱われている技術や学習内容について、概要と説明のセクションを編集し3行以内で簡潔に説明してください。
+WSL、GitHub、Docker、言語環境など開発に必要な技術スタックの構築手順を詳細に解説。
+コマンドラインの実行例と結果を含む実践的な手順書として構成。
+開発環境構築の再現性と一貫性を確保し、効率的な技術学習を支援するリファレンス資料。
 
 ---
 
