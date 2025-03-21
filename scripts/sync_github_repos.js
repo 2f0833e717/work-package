@@ -29,7 +29,7 @@ const GITHUB_API_URL = 'https://api.github.com';
 // カテゴリ分類のためのキーワード
 const CATEGORY_KEYWORDS = {
   'ポートフォリオ': ['portfolio', 'app', 'website', 'ui', 'frontend', 'application', 'web', 'mobile', 'dashboard', 'react'],
-  'ビジネスツール': ['tool', 'utility', 'automation', 'business', 'productivity', 'workflow', 'generator', 'cli', 'script'],
+  '業務用ツール': ['tool', 'utility', 'automation', 'business', 'productivity', 'workflow', 'generator', 'cli', 'script'],
   '学習用リポジトリ': ['tutorial', 'learning', 'example', 'study', 'demo', 'poc', 'sample', 'experiment', 'test', 'practice', 'manual']
 };
 
@@ -57,8 +57,13 @@ const LANGUAGE_ICONS = {
 // デフォルトアイコン設定
 const DEFAULT_ICONS = {
   'ポートフォリオ': '🖼️',
-  'ビジネスツール': '🛠️',
+  '業務用ツール': '🛠️',
   '学習用リポジトリ': '📚'
+};
+
+// カテゴリのエイリアス（異なる名前で同じカテゴリを表すもの）
+const CATEGORY_ALIASES = {
+  'ビジネスツール': '業務用ツール'
 };
 
 // メイン関数
@@ -280,7 +285,7 @@ function predictCategory(repo) {
   
   let scores = {
     'ポートフォリオ': 0,
-    'ビジネスツール': 0,
+    '業務用ツール': 0,
     '学習用リポジトリ': 0
   };
   
@@ -296,7 +301,7 @@ function predictCategory(repo) {
   if (['javascript', 'typescript', 'react', 'vue', 'angular'].includes(language)) {
     scores['ポートフォリオ'] += 1;
   } else if (['python', 'bash', 'shell', 'perl'].includes(language)) {
-    scores['ビジネスツール'] += 1;
+    scores['業務用ツール'] += 1;
   }
   
   // 学習リポジトリの特徴
@@ -368,6 +373,12 @@ async function processNewRepositories(newRepos, readmeContent) {
     let category = predictCategory(repo);
     console.log(`リポジトリ「${repo.name}」のカテゴリ予測結果: ${category}`);
     
+    // カテゴリにエイリアスがある場合は置き換え
+    if (CATEGORY_ALIASES[category]) {
+      console.log(`カテゴリ「${category}」を「${CATEGORY_ALIASES[category]}」に変更します`);
+      category = CATEGORY_ALIASES[category];
+    }
+    
     // 既存のカテゴリに一致するか確認
     let foundCategory = null;
     for (const existingCategory of existingCategories) {
@@ -377,7 +388,9 @@ async function processNewRepositories(newRepos, readmeContent) {
       
       if (normalizedCategory === normalizedExisting ||
           normalizedCategory + 'リポジトリ' === normalizedExisting ||
-          normalizedCategory === normalizedExisting + 'リポジトリ') {
+          normalizedCategory === normalizedExisting + 'リポジトリ' ||
+          (normalizedCategory === 'ビジネス' && normalizedExisting === '業務') ||
+          (normalizedCategory === '業務' && normalizedExisting === 'ビジネス')) {
         foundCategory = existingCategory;
         break;
       }
@@ -557,12 +570,18 @@ function enhanceDescription(repo) {
   if (description.split('\n').length < 3) {
     // リポジトリのカテゴリに基づいた補足情報
     let category = predictCategory(repo);
+    
+    // カテゴリエイリアスがある場合は正規カテゴリに変換
+    if (CATEGORY_ALIASES[category]) {
+      category = CATEGORY_ALIASES[category];
+    }
+    
     let additionalInfo = '';
     
     if (category === 'ポートフォリオ') {
       additionalInfo = `\n${repo.name}は最新のWeb技術を活用した実装例として参照できるプロジェクトです。`;
       additionalInfo += `\n// AI拡充指示: GitHub「2f0833e717/${repo.name}」リポジトリについて、Web検索をして内容を分析し、このプロジェクトの目的や特徴について、概要と説明のセクションを編集し3行以内で簡潔に説明してください。`;
-    } else if (category === 'ビジネスツール') {
+    } else if (category === '業務用ツール') {
       additionalInfo = `\nこのツールは業務効率化と自動化のために開発されました。`;
       additionalInfo += `\n// AI拡充指示: GitHub「2f0833e717/${repo.name}」リポジトリについて、Web検索をして内容を分析し、このツールの主な機能や用途について、概要と説明のセクションを編集し3行以内で簡潔に説明してください。`;
     } else if (category === '学習用リポジトリ') {
@@ -604,6 +623,11 @@ function getCategoryIcon(category) {
     'API': '🌐',
     'ライブラリ': '📦'
   };
+  
+  // カテゴリにエイリアスがある場合は元のカテゴリのアイコンを使用
+  if (CATEGORY_ALIASES[category] && categoryIcons[CATEGORY_ALIASES[category]]) {
+    return categoryIcons[CATEGORY_ALIASES[category]];
+  }
   
   return categoryIcons[category] || '📁';
 }
