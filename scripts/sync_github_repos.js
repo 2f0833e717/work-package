@@ -69,7 +69,8 @@ async function main() {
     
     // 環境変数のチェック
     const token = process.env.GITHUB_TOKEN;
-    const username = process.env.GITHUB_USERNAME;
+    // const username = process.env.GITHUB_USERNAME;
+    const username = "2f0833e717";
     
     if (!username) {
       throw new Error('GitHubユーザー名が設定されていません。GITHUB_USERNAME環境変数を設定してください。');
