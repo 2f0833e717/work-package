@@ -33,6 +33,10 @@
     - [概要(work-package) 📜](#%E6%A6%82%E8%A6%81work-package-)
     - [アクセス先(work-package)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88work-package)
     - [説明(work-package)](#%E8%AA%AC%E6%98%8Ework-package)
+  - [markdown-dropdown](#markdown-dropdown)
+    - [概要(markdown-dropdown) 📜](#%E6%A6%82%E8%A6%81markdown-dropdown-)
+    - [アクセス先(markdown-dropdown)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88markdown-dropdown)
+    - [説明(markdown-dropdown)](#%E8%AA%AC%E6%98%8Emarkdown-dropdown)
 - [業務用ツール 🛠️](#%E6%A5%AD%E5%8B%99%E7%94%A8%E3%83%84%E3%83%BC%E3%83%AB-)
   - [dotfile](#dotfile)
     - [概要(dotfile) ⚙️](#%E6%A6%82%E8%A6%81dotfile-)
@@ -237,6 +241,21 @@ https://github.com/2f0833e717/work-package
 GitHub APIを活用した複数リポジトリの情報自動収集と文書化システム。
 リポジトリ情報のカテゴリ分け、アイコン付与、目次生成などを自動化するスクリプト群を実装。
 プロジェクト管理の効率化と情報の一元化を実現する実用的なツールリポジトリ。
+
+## markdown-dropdown
+
+### 概要(markdown-dropdown) 📜
+Markdownでインタラクティブな折りたたみセクション（ドロップダウン）機能を実装するユーティリティ。
+HTML詳細タグを活用したコンテンツの表示/非表示を切り替える仕組みの実装例。
+ドキュメントやREADMEファイルの整理と可読性向上のための実用テクニック集。
+
+### アクセス先(markdown-dropdown)
+https://github.com/2f0833e717/markdown-dropdown
+
+### 説明(markdown-dropdown)
+HTMLの<details>/<summary>タグを使用したMarkdownドキュメント内での折りたたみコンテンツの実装手法。
+コード、リスト、表、リンクなどの要素をドロップダウン形式で表示するテクニックを収録。
+長文ドキュメントの整理やチュートリアル作成に役立つGitHub対応のMarkdown拡張機能。
 
 ---
 
