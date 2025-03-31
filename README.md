@@ -33,10 +33,6 @@
     - [概要(work-package) 📜](#%E6%A6%82%E8%A6%81work-package-)
     - [アクセス先(work-package)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88work-package)
     - [説明(work-package)](#%E8%AA%AC%E6%98%8Ework-package)
-  - [markdown-dropdown](#markdown-dropdown)
-    - [概要(markdown-dropdown) 📜](#%E6%A6%82%E8%A6%81markdown-dropdown-)
-    - [アクセス先(markdown-dropdown)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88markdown-dropdown)
-    - [説明(markdown-dropdown)](#%E8%AA%AC%E6%98%8Emarkdown-dropdown)
 - [業務用ツール 🛠️](#%E6%A5%AD%E5%8B%99%E7%94%A8%E3%83%84%E3%83%BC%E3%83%AB-)
   - [dotfile](#dotfile)
     - [概要(dotfile) ⚙️](#%E6%A6%82%E8%A6%81dotfile-)
@@ -245,17 +241,17 @@ GitHub APIを活用した複数リポジトリの情報自動収集と文書化�
 ## markdown-dropdown
 
 ### 概要(markdown-dropdown) 📜
-Markdownでインタラクティブな折りたたみセクション（ドロップダウン）機能を実装するユーティリティ。
-HTML詳細タグを活用したコンテンツの表示/非表示を切り替える仕組みの実装例。
-ドキュメントやREADMEファイルの整理と可読性向上のための実用テクニック集。
+Markdownドキュメント用のドロップダウンメニュー付きテーブル生成ツール。
+HTML対応のMarkdownレンダラーで使用可能なプルダウン要素を簡単に作成。
+行と列のサイズやヘッダー、プルダウンの選択肢をカスタマイズ可能なWebアプリケーション。
 
 ### アクセス先(markdown-dropdown)
 https://github.com/2f0833e717/markdown-dropdown
 
 ### 説明(markdown-dropdown)
-HTMLの<details>/<summary>タグを使用したMarkdownドキュメント内での折りたたみコンテンツの実装手法。
-コード、リスト、表、リンクなどの要素をドロップダウン形式で表示するテクニックを収録。
-長文ドキュメントの整理やチュートリアル作成に役立つGitHub対応のMarkdown拡張機能。
+ExcelのようなUI操作で行数・列数を自由に設定し、列ごとに異なるプルダウンの選択肢をカスタマイズできるMarkdown向けHTMLジェネレーター。
+GitHubなどのHTML対応Markdownで使用できるドロップダウンメニュー付きテーブルを簡単に作成・出力可能。
+静的HTML/JavaScript/CSSのみで実装されており、Netlifyでも公開されている実用的なツール。
 
 ---
 
