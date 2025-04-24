@@ -5,6 +5,10 @@
 
 - [リポジトリまとめ 📑](#%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%BE%E3%81%A8%E3%82%81-)
 - [ポートフォリオ 🖼️](#%E3%83%9D%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA-)
+  - [work-package](#work-package)
+    - [概要(work-package) 📜](#%E6%A6%82%E8%A6%81work-package-)
+    - [アクセス先(work-package)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88work-package)
+    - [説明(work-package)](#%E8%AA%AC%E6%98%8Ework-package)
   - [browserwebfiler](#browserwebfiler)
     - [概要(browserwebfiler) 📂](#%E6%A6%82%E8%A6%81browserwebfiler-)
     - [アクセス先(browserwebfiler)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88browserwebfiler)
@@ -29,10 +33,6 @@
     - [概要(2f0833e717.github.io) 📜](#%E6%A6%82%E8%A6%812f0833e717githubio-)
     - [アクセス先(2f0833e717.github.io)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%882f0833e717githubio)
     - [説明(2f0833e717.github.io)](#%E8%AA%AC%E6%98%8E2f0833e717githubio)
-  - [work-package](#work-package)
-    - [概要(work-package) 📜](#%E6%A6%82%E8%A6%81work-package-)
-    - [アクセス先(work-package)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88work-package)
-    - [説明(work-package)](#%E8%AA%AC%E6%98%8Ework-package)
   - [markdown-dropdown](#markdown-dropdown)
     - [概要(markdown-dropdown) 📜](#%E6%A6%82%E8%A6%81markdown-dropdown-)
     - [アクセス先(markdown-dropdown)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88markdown-dropdown)
@@ -95,14 +95,22 @@
     - [アクセス先(powerpoint-vba-toolkit)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88powerpoint-vba-toolkit)
     - [説明(powerpoint-vba-toolkit)](#%E8%AA%AC%E6%98%8Epowerpoint-vba-toolkit)
 - [学習用リポジトリ 📚](#%E5%AD%A6%E7%BF%92%E7%94%A8%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA-)
+  - [manual](#manual)
+    - [概要(manual) 📚](#%E6%A6%82%E8%A6%81manual-)
+    - [アクセス先(manual)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88manual)
+    - [説明(manual)](#%E8%AA%AC%E6%98%8Emanual)
+  - [vagrantfiles](#vagrantfiles)
+    - [概要(vagrantfiles) 📦](#%E6%A6%82%E8%A6%81vagrantfiles-)
+    - [アクセス先(vagrantfiles)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88vagrantfiles)
+    - [説明(vagrantfiles)](#%E8%AA%AC%E6%98%8Evagrantfiles)
+  - [v3f](#v3f)
+    - [概要(v3f) 🔥](#%E6%A6%82%E8%A6%81v3f-)
+    - [アクセス先(v3f)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88v3f)
+    - [説明(v3f)](#%E8%AA%AC%E6%98%8Ev3f)
   - [qd](#qd)
     - [概要(qd) 🔷](#%E6%A6%82%E8%A6%81qd-)
     - [アクセス先(qd)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88qd)
     - [説明(qd)](#%E8%AA%AC%E6%98%8Eqd)
-  - [SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS](#sre_kubernetes_lac_terraform_ansible_helm_aws)
-    - [概要(SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS) ☁️](#%E6%A6%82%E8%A6%81sre_kubernetes_lac_terraform_ansible_helm_aws-)
-    - [アクセス先(SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88sre_kubernetes_lac_terraform_ansible_helm_aws)
-    - [説明(SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS)](#%E8%AA%AC%E6%98%8Esre_kubernetes_lac_terraform_ansible_helm_aws)
   - [node-docker](#node-docker)
     - [概要(node-docker) 🐳](#%E6%A6%82%E8%A6%81node-docker-)
     - [アクセス先(node-docker)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88node-docker)
@@ -111,18 +119,14 @@
     - [概要(grandstack) 📊](#%E6%A6%82%E8%A6%81grandstack-)
     - [アクセス先(grandstack)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88grandstack)
     - [説明(grandstack)](#%E8%AA%AC%E6%98%8Egrandstack)
-  - [v3f](#v3f)
-    - [概要(v3f) 🔥](#%E6%A6%82%E8%A6%81v3f-)
-    - [アクセス先(v3f)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88v3f)
-    - [説明(v3f)](#%E8%AA%AC%E6%98%8Ev3f)
-  - [vagrantfiles](#vagrantfiles)
-    - [概要(vagrantfiles) 📦](#%E6%A6%82%E8%A6%81vagrantfiles-)
-    - [アクセス先(vagrantfiles)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88vagrantfiles)
-    - [説明(vagrantfiles)](#%E8%AA%AC%E6%98%8Evagrantfiles)
-  - [manual](#manual)
-    - [概要(manual) 📚](#%E6%A6%82%E8%A6%81manual-)
-    - [アクセス先(manual)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88manual)
-    - [説明(manual)](#%E8%AA%AC%E6%98%8Emanual)
+  - [SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS](#sre_kubernetes_lac_terraform_ansible_helm_aws)
+    - [概要(SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS) ☁️](#%E6%A6%82%E8%A6%81sre_kubernetes_lac_terraform_ansible_helm_aws-)
+    - [アクセス先(SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88sre_kubernetes_lac_terraform_ansible_helm_aws)
+    - [説明(SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS)](#%E8%AA%AC%E6%98%8Esre_kubernetes_lac_terraform_ansible_helm_aws)
+  - [GoF23_TypeScript](#gof23_typescript)
+    - [概要(GoF23_TypeScript) 📘](#%E6%A6%82%E8%A6%81gof23_typescript-)
+    - [アクセス先(GoF23_TypeScript)](#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%85%88gof23_typescript)
+    - [説明(GoF23_TypeScript)](#%E8%AA%AC%E6%98%8Egof23_typescript)
 - [リポジトリ管理ツール 🛠️](#%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E7%AE%A1%E7%90%86%E3%83%84%E3%83%BC%E3%83%AB-)
     - [利用可能なコマンド](#%E5%88%A9%E7%94%A8%E5%8F%AF%E8%83%BD%E3%81%AA%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89)
     - [セットアップ手順](#%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E6%89%8B%E9%A0%86)
@@ -137,6 +141,21 @@
 ---
 
 # ポートフォリオ 🖼️
+
+## work-package
+
+### 概要(work-package) 📜
+GitHubリポジトリ管理と情報整理のための統合ツールセット。
+Node.jsベースの自動同期と文書化機能を備えたワークフロー効率化プロジェクト。
+複数リポジトリの概要情報を一元管理するためのマスターリポジトリ。
+
+### アクセス先(work-package)
+https://github.com/2f0833e717/work-package
+
+### 説明(work-package)
+GitHub APIを活用した複数リポジトリの情報自動収集と文書化システム。
+リポジトリ情報のカテゴリ分け、アイコン付与、目次生成などを自動化するスクリプト群を実装。
+プロジェクト管理の効率化と情報の一元化を実現する実用的なツールリポジトリ。
 
 ## browserwebfiler
 
@@ -227,21 +246,6 @@ GitHub Pagesを使用して構築された個人のウェブプレゼンス環�
 HTML/CSS/JavaScriptを活用したウェブサイト構築の実践的なプロジェクト。
 ポートフォリオ作品や技術的な情報共有を目的としたパブリックリポジトリ。
 
-## work-package
-
-### 概要(work-package) 📜
-GitHubリポジトリ管理と情報整理のための統合ツールセット。
-Node.jsベースの自動同期と文書化機能を備えたワークフロー効率化プロジェクト。
-複数リポジトリの概要情報を一元管理するためのマスターリポジトリ。
-
-### アクセス先(work-package)
-https://github.com/2f0833e717/work-package
-
-### 説明(work-package)
-GitHub APIを活用した複数リポジトリの情報自動収集と文書化システム。
-リポジトリ情報のカテゴリ分け、アイコン付与、目次生成などを自動化するスクリプト群を実装。
-プロジェクト管理の効率化と情報の一元化を実現する実用的なツールリポジトリ。
-
 ## markdown-dropdown
 
 ### 概要(markdown-dropdown) 📜
@@ -260,8 +264,6 @@ GitHubなどのHTML対応Markdownで使用できるドロップダウンメニ�
 ---
 
 # 業務用ツール 🛠️
-
----
 
 ## dotfile
 
@@ -474,6 +476,51 @@ PowerPointのスライド作成・編集作業を効率化するVBAマクロ集�
 
 # 学習用リポジトリ 📚
 
+## manual
+
+### 概要(manual) 📚
+開発環境セットアップと技術スタック管理のための包括的マニュアル集。
+WSL、GitHub、Docker、各種プログラミング言語のセットアップ手順を網羅。
+実務で頻繁に使用する開発環境構築の効率化と標準化を目指したドキュメント。
+
+### アクセス先(manual)
+https://github.com/2f0833e717/manual
+
+### 説明(manual)
+WSL、GitHub、Docker、言語環境など開発に必要な技術スタックの構築手順を詳細に解説。
+コマンドラインの実行例と結果を含む実践的な手順書として構成。
+開発環境構築の再現性と一貫性を確保し、効率的な技術学習を支援するリファレンス資料。
+
+## vagrantfiles
+
+### 概要(vagrantfiles) 📦
+Vagrant仮想環境の設定ファイルとプロビジョニングスクリプト集。
+様々な開発環境を素早く構築するための仮想マシン定義ファイルライブラリ。
+環境の一貫性と再現性を確保する仮想化技術の基礎学習リソース。
+
+### アクセス先(vagrantfiles)
+https://github.com/2f0833e717/vagrantfiles
+
+### 説明(vagrantfiles)
+多様な開発環境を簡単に構築できるVagrant設定ファイル（Vagrantfile）のコレクション。
+各種言語開発環境、データベース環境など、目的別に最適化された仮想マシン定義。
+シェルスクリプト、様々なプロビジョニング手法を組み合わせた実用的な環境構築スキルの習得に最適な学習リソース。
+
+## v3f
+
+### 概要(v3f) 🔥
+Vue.js 3とFirebaseを組み合わせたモダンウェブアプリケーション開発の学習環境。
+フロントエンドフレームワークとサーバーレスバックエンドの統合アーキテクチャを実践。
+認証、データベース、ホスティングなどクラウドサービスとの連携手法を効率的に学習可能。
+
+### アクセス先(v3f)
+https://github.com/2f0833e717/v3f
+
+### 説明(v3f)
+Vue.js 3とFirebaseを中心とした最新ウェブ技術スタックの統合学習リポジトリ。
+Firestore、認証、ストレージ、ホスティングなどFirebaseサービスとVue.jsフレームワークの効果的な連携手法を解説。
+コンポジションAPI、TypeScript統合、セキュリティルールなど、本格的なプロダクション開発に必要な知識と実装パターンを習得できる実践的教材。
+
 ## qd
 
 ### 概要(qd) 🔷
@@ -488,21 +535,6 @@ https://github.com/2f0833e717/qd
 Vue.jsベースのQuasar Frameworkを活用した実践的なフロントエンド開発学習環境。
 コンポーネント設計、状態管理、レスポンシブUIなどモダンなWebアプリケーション開発の基礎を網羅。
 実践的なサンプルコードとプロジェクト構成を通じて、本格的なSPA開発スキルを効率的に習得できる学習リソース。
-
-## SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS
-
-### 概要(SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS) ☁️
-SRE（Site Reliability Engineering）とDevOps技術スタックの学習用リポジトリ。
-Kubernetes、Terraform、Ansible、AWSなどの最新インフラ技術の実装例を収録。
-Infrastructure as Code（IaC）の原則に基づく実践的なクラウド環境構築手法を学習可能。
-
-### アクセス先(SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS)
-https://github.com/2f0833e717/SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS
-
-### 説明(SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS)
-現代のクラウドインフラ技術とDevOps手法を網羅した包括的な学習リソース。
-Kubernetesによるコンテナオーケストレーション、TerraformによるIaC実装、Ansibleによる構成管理、AWS環境での展開を実践的に解説。
-マイクロサービスアーキテクチャから大規模分散システムまで、現代的なクラウドインフラの設計・構築・運用スキルを体系的に習得できる教材。
 
 ## node-docker
 
@@ -534,50 +566,35 @@ GraphQL、React、Apollo Client/Server、Neo4j Databaseを統合したGRANDス�
 グラフデータモデリング、GraphQLスキーマ設計、Reactコンポーネント開発、データ連携の全工程をカバー。
 複雑なデータ関係を直感的に扱えるグラフデータベースと最新フロントエンド技術の組み合わせによる、効率的なフルスタック開発手法を習得できる教材。
 
-## v3f
+## SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS
 
-### 概要(v3f) 🔥
-Vue.js 3とFirebaseを組み合わせたモダンウェブアプリケーション開発の学習環境。
-フロントエンドフレームワークとサーバーレスバックエンドの統合アーキテクチャを実践。
-認証、データベース、ホスティングなどクラウドサービスとの連携手法を効率的に学習可能。
+### 概要(SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS) ☁️
+SRE（Site Reliability Engineering）とDevOps技術スタックの学習用リポジトリ。
+Kubernetes、Terraform、Ansible、AWSなどの最新インフラ技術の実装例を収録。
+Infrastructure as Code（IaC）の原則に基づく実践的なクラウド環境構築手法を学習可能。
 
-### アクセス先(v3f)
-https://github.com/2f0833e717/v3f
+### アクセス先(SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS)
+https://github.com/2f0833e717/SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS
 
-### 説明(v3f)
-Vue.js 3とFirebaseを中心とした最新ウェブ技術スタックの統合学習リポジトリ。
-Firestore、認証、ストレージ、ホスティングなどFirebaseサービスとVue.jsフレームワークの効果的な連携手法を解説。
-コンポジションAPI、TypeScript統合、セキュリティルールなど、本格的なプロダクション開発に必要な知識と実装パターンを習得できる実践的教材。
+### 説明(SRE_Kubernetes_laC_Terraform_Ansible_helm_AWS)
+現代のクラウドインフラ技術とDevOps手法を網羅した包括的な学習リソース。
+Kubernetesによるコンテナオーケストレーション、TerraformによるIaC実装、Ansibleによる構成管理、AWS環境での展開を実践的に解説。
+マイクロサービスアーキテクチャから大規模分散システムまで、現代的なクラウドインフラの設計・構築・運用スキルを体系的に習得できる教材。
 
-## vagrantfiles
+## GoF23_TypeScript
 
-### 概要(vagrantfiles) 📦
-Vagrant仮想環境の設定ファイルとプロビジョニングスクリプト集。
-様々な開発環境を素早く構築するための仮想マシン定義ファイルライブラリ。
-環境の一貫性と再現性を確保する仮想化技術の基礎学習リソース。
+### 概要(GoF23_TypeScript) 📘
+TypeScriptで実装された23種類のGoF（Gang of Four）デザインパターンのコレクション。
+オブジェクト指向設計の基本パターンを学習・実装するための実践的リポジトリ。
+ソフトウェア設計の再利用可能な解決策を提供する教育リソース。
 
-### アクセス先(vagrantfiles)
-https://github.com/2f0833e717/vagrantfiles
+### アクセス先(GoF23_TypeScript)
+https://github.com/2f0833e717/GoF23_TypeScript
 
-### 説明(vagrantfiles)
-多様な開発環境を簡単に構築できるVagrant設定ファイル（Vagrantfile）のコレクション。
-各種言語開発環境、データベース環境など、目的別に最適化された仮想マシン定義。
-シェルスクリプト、様々なプロビジョニング手法を組み合わせた実用的な環境構築スキルの習得に最適な学習リソース。
-
-## manual
-
-### 概要(manual) 📚
-開発環境セットアップと技術スタック管理のための包括的マニュアル集。
-WSL、GitHub、Docker、各種プログラミング言語のセットアップ手順を網羅。
-実務で頻繁に使用する開発環境構築の効率化と標準化を目指したドキュメント。
-
-### アクセス先(manual)
-https://github.com/2f0833e717/manual
-
-### 説明(manual)
-WSL、GitHub、Docker、言語環境など開発に必要な技術スタックの構築手順を詳細に解説。
-コマンドラインの実行例と結果を含む実践的な手順書として構成。
-開発環境構築の再現性と一貫性を確保し、効率的な技術学習を支援するリファレンス資料。
+### 説明(GoF23_TypeScript)
+生成・構造・振る舞いの3カテゴリに分類されたデザインパターンをTypeScriptで実装したサンプル集。
+ドキュメントやナレッジ部分の多くを自動生成できるように様々なドキュメントツールを導入。
+モダンなTypeScript構文とオブジェクト指向原則を活用したコード設計の学習教材。
 
 ---
 
