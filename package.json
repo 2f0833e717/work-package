@@ -21,7 +21,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "doctoc": "^2.2.1",
+    "doctoc": "^2.5.0",
     "node-fetch": "^3.0.0"
   }
 }
